@@ -1,0 +1,40 @@
+* {
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+body h1 {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+body div.a {
+  width: 400px;
+  height: 300px;
+  background-color: rgba(202, 38, 153, 0.7);
+  margin: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+body div.a div.b {
+  width: 150px;
+  height: 150px;
+  background-color: rgba(0, 106, 255, 0.7);
+}
+body form {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: cursive;
+}
+body form button {
+  padding: 0.2rem;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-family: cursive;
+}/*# sourceMappingURL=style.css.map */
